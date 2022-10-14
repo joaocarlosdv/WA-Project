@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\Seleções\\WA Project\\API\\ERP.API\\API.csproj": {}
+    "D:\\Projetos\\Seleções\\WA Project\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\Seleções\\WA Project\\API\\ERP.API\\API.csproj": {
+    "D:\\Projetos\\Seleções\\WA Project\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Seleções\\WA Project\\API\\ERP.API\\API.csproj",
+        "projectUniqueName": "D:\\Projetos\\Seleções\\WA Project\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Projetos\\Seleções\\WA Project\\API\\ERP.API\\API.csproj",
+        "projectPath": "D:\\Projetos\\Seleções\\WA Project\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\joaoc\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Seleções\\WA Project\\API\\ERP.API\\obj\\",
+        "outputPath": "D:\\Projetos\\Seleções\\WA Project\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaoc\\AppData\\Roaming\\NuGet\\NuGet.Config",

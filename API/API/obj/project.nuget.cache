@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "th0/WdJT3sfFejXEgd4ZeYaqV1p3ev803T4o8w1AoAEHKkDhEQMIWyshLxPGQh7o7H2IfRqmmyvgrS+SSpyFmA==",
+  "dgSpecHash": "MN/OBtkXXKajXrC5wImvRDmvweLelmWTmqJ6zbl9/3340MPmkWdQWa5a1BJOWYgNZuA0ZTios+snhK1/DoaciQ==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\Seleções\\WA Project\\API\\ERP.API\\API.csproj",
+  "projectFilePath": "D:\\Projetos\\Seleções\\WA Project\\API\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaoc\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\joaoc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
