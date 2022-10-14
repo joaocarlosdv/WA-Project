@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Dtos\EmpresaDto.cs" />
+    <Compile Remove="Dtos\GrupoSegurancaDto.cs" />
+    <Compile Remove="Dtos\GrupoSegurancaEmpresaDto.cs" />
+    <Compile Remove="Dtos\GrupoSegurancaTransacaoDto.cs" />
+    <Compile Remove="Dtos\GrupoSegurancaUsuarioDto.cs" />
+    <Compile Remove="Dtos\MunicipioDto.cs" />
+    <Compile Remove="Dtos\TesteDto.cs" />
+    <Compile Remove="Dtos\TransacaoDto.cs" />
+    <Compile Remove="Dtos\UsuarioAutenticadoDto.cs" />
+    <Compile Remove="Dtos\UsuarioDto.cs" />
+    <Compile Remove="Mappings\EmpresaMap.cs" />
+    <Compile Remove="Mappings\GrupoSegurancaEmpresaMap.cs" />
+    <Compile Remove="Mappings\GrupoSegurancaMap.cs" />
+    <Compile Remove="Mappings\GrupoSegurancaTransacaoMap.cs" />
+    <Compile Remove="Mappings\GrupoSegurancaUsuarioMap.cs" />
+    <Compile Remove="Mappings\MunicipioMap.cs" />
+    <Compile Remove="Mappings\TesteMap.cs" />
+    <Compile Remove="Mappings\TransacaoMap.cs" />
+    <Compile Remove="Mappings\UsuarioMap.cs" />
+    <Compile Remove="Models\Empresa.cs" />
+    <Compile Remove="Models\GrupoSeguranca.cs" />
+    <Compile Remove="Models\GrupoSegurancaEmpresa.cs" />
+    <Compile Remove="Models\GrupoSegurancaTransacao.cs" />
+    <Compile Remove="Models\GrupoSegurancaUsuario.cs" />
+    <Compile Remove="Models\Municipio.cs" />
+    <Compile Remove="Models\Teste.cs" />
+    <Compile Remove="Models\Transacao.cs" />
+    <Compile Remove="Models\Usuario.cs" />
+    <Compile Remove="Repositories\EmpresaRepositorio.cs" />
+    <Compile Remove="Repositories\GrupoSegurancaEmpresaRepositorio.cs" />
+    <Compile Remove="Repositories\GrupoSegurancaRepositorio.cs" />
+    <Compile Remove="Repositories\GrupoSegurancaTransacaoRepositorio.cs" />
+    <Compile Remove="Repositories\GrupoSegurancaUsuarioRepositorio.cs" />
+    <Compile Remove="Repositories\MunicipioRepositorio.cs" />
+    <Compile Remove="Repositories\TesteRepositorio.cs" />
+    <Compile Remove="Repositories\TransacaoRepositorio.cs" />
+    <Compile Remove="Repositories\UsuarioRepositorio.cs" />
+    <Compile Remove="Services\EmpresaService.cs" />
+    <Compile Remove="Services\GrupoSegurancaEmpresaService.cs" />
+    <Compile Remove="Services\GrupoSegurancaService.cs" />
+    <Compile Remove="Services\GrupoSegurancaTransacaoService.cs" />
+    <Compile Remove="Services\GrupoSegurancaUsuarioService.cs" />
+    <Compile Remove="Services\MunicipioService.cs" />
+    <Compile Remove="Services\TesteService.cs" />
+    <Compile Remove="Services\TransacaoService.cs" />
+    <Compile Remove="Services\UsuarioService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Npgsql" Version="5.0.5" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.5" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

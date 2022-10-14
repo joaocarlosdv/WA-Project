@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "name": "Vue 2",
+            "meta": ["general"],
+            "children": [
+                {
+                    "name": "PrimeVue 2",
+                    "href": "https://www.primefaces.org/primevue/showcase-v2"
+                }
+            ]
+        },
+        {
+            "name": "Tarefa",
+            "meta": ["general"],
+            "icon": "pi pi-star-o",
+            "children": [
+                {
+                    "name": "Tarefa",
+                    "to": "/tarefa",
+                    "icon": "pi pi-sliders-v"
+                }
+            ]
+        }
+    ]
+}
